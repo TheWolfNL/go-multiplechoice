@@ -1,3 +1,4 @@
+// Package MultipleChoice is intended for use in CLI applications
 package MultipleChoice
 
 import (
@@ -8,12 +9,9 @@ import (
 	"strings"
 )
 
-/*
-This currently requires the user to have fzf installed
-
-Usage:
-	selection := MultipleChoice.Selection("Select one: ", []string{"option1", "option2", "option3"}])
-*/
+// Selection allows the program to ask a question
+// and give the user several options to chose from,
+// then returning the selected option.
 func Selection(question string, options []string) string {
 	fmt.Println(question)
 
