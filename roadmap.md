@@ -9,4 +9,4 @@ The following is not definitive, nor is there a timeframe specified when these c
 - Using `fzf` internally, thus no need to have it installed
 
 ## Suggestions :thought_balloon:
-Please create an issue if you have a suggestion.
+Please create an [issue](https://github.com/TheWolfNL/go-multiplechoice/issues) if you have a suggestion.
